@@ -12,6 +12,7 @@ const Contact = () => {
         <input type="text" />
         <label htmlFor="">MESSAGE:</label>
         <input type="text" />
+        <button className='send'>SEND</button>
       </form>
       </div>
     </div>

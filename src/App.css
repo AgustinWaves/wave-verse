@@ -157,11 +157,16 @@
 .hi {
   font-size: 7rem;
   line-height: 0;
+  margin-bottom: 9rem;
 }
 
 .form {
-  display: gird;
+  width: 600px;
+  height: auto;
+  display: grid;
+  gap: 20px;
   text-align: start;
+  margin-bottom: 2rem;
 }
 
 input {
@@ -194,6 +199,22 @@ input {
   font-weight: 300;
   text-transform: uppercase;
   line-height: 3.5rem;
+}
+
+.send {
+  text-decoration: none;
+  width: 80px;
+  height: auto;
+  padding: 8px;
+  border: solid 1px #131313;
+  border-radius: 3px;
+  background: none;
+}
+
+.send:hover {
+  background-color: #131313;
+  color: #E1E1E1;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
