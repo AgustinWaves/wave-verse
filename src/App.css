@@ -78,6 +78,7 @@
   color: #E1E1E1;
   text-decoration: none;
   cursor: pointer;
+  height: fit-content;
 }
 
 .hero-link {

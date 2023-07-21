@@ -9,7 +9,7 @@ const Contact = () => {
         <label htmlFor="">NAME:</label>
         <input type="text" />
         <label htmlFor="">EMAIL:</label>
-        <input type="text" />
+        <input type="email" />
         <label htmlFor="">MESSAGE:</label>
         <input type="text" />
         <button className='send'>SEND</button>
